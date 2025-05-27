@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>--Financiera Toto--</title>
+</head>
+
+<body>
+    <header> <!--Nav bar-->
+        <!--Pued insertar logo -->
+        <h1>Servicios financieros</h1>
+        <nav>
+            <div>
+                <ul>
+                    <li><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li><a class="nav-link" href="#simuladorPrestamo">Simular Prestamo</a></li>
+                    <li><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido a la web Servicios de Prestamos personales</h2>
+            <figcaption><img src="https://picsum.photos/id/237/500/300" alt="Imagen principal o Bienvenida.">
+            </figcaption>
+            <p>Bienvenido a mi pagina, a continuacion les voy a demostrar las opciones de prestamos.</p>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <div class="servicios-container">
+                <div class="servicio">
+                    <i class="fa-solid fa-calendar"></i>
+                    <img src="https://picsum.photos/150/150" alt="Servicio 1">
+                    <p>Mensual</p>
+                </div>
+
+                <div class="servicios-container">
+                    <div class="servicio">
+                        <img src="https://picsum.photos/150/150" alt="Servicio 2">
+                        <p>Quincenal</p>
+                    </div>
+
+                    <div class="servicios-container">
+                        <div class="servicio">
+                            <img src="https://picsum.photos/150/150" alt="Servicio 3">
+                            <p>Semanal</p>
+                        </div>
+                    </div>
+        </section>
+
+        <section id="simuladorprestamo">
+            <h2>Simulador de Prestamo.</h2>
+
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="https://formspree.io/f/xvgajwpg" method="POST">
+
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" required>
+
+                <label for="correo">Correo electronico</label>
+                <input type="email" name="correo" id="correo" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sitio web de Prestamos personales, derechos reservados de autor.</p>
+
+    </footer>
+
+</body>
+
+</html>

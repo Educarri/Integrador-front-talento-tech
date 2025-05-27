@@ -1,0 +1,90 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+header {
+    background-color: #4E6688;
+    color: #102E50;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+nav ul li a {
+    color: #FFC300;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+
+}
+
+.servicios-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;   
+   
+}
+
+.servicio{
+    text-align: center;
+}
+
+.servicio img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input,textarea{
+    padding: 10px;
+    background-color: lightgrey;
+    border: 1px solid #886b2c;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+    background-color: #E78B48;
+    color: blueviolet;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* media query para pantallas celulares (pantalla hasta 600px)*/
+@media (max-width:600px){
+
+}
